@@ -58,20 +58,20 @@ public class SecondFragment extends Fragment implements OnClick {
                 break;
             case "Africa":
                 countries.add(new Mainland(R.drawable.ic_ao_africa, "Ao"));
-                countries.add(new Mainland(R.drawable.ic_bf_africa, "Canada"));
+                countries.add(new Mainland(R.drawable.ic_bf_africa, "Bf"));
                 countries.add(new Mainland(R.drawable.ic_bj_africa, "Bj"));
-                countries.add(new Mainland(R.drawable.ic_bw_africa, "Brazil"));
-                countries.add(new Mainland(R.drawable.ic_dz_africa, "Guyana"));
+                countries.add(new Mainland(R.drawable.ic_bw_africa, "Bv"));
+                countries.add(new Mainland(R.drawable.ic_dz_africa, "Dz"));
                 break;
             case "Antarctica":
                 countries.add(new Mainland(R.drawable.ic_fourth_mainland, "no country"));
                 break;
             case "Eurasia":
                 countries.add(new Mainland(R.drawable.ic_china, "China"));
-                countries.add(new Mainland(R.drawable.ic_russia, "Canada"));
+                countries.add(new Mainland(R.drawable.ic_russia, "Russia"));
                 countries.add(new Mainland(R.drawable.ic_japan, "Japan"));
-                countries.add(new Mainland(R.drawable.ic_kg, "Brazil"));
-                countries.add(new Mainland(R.drawable.ic_kr, "Guyana"));
+                countries.add(new Mainland(R.drawable.ic_kg, "Kyrgyzstan"));
+                countries.add(new Mainland(R.drawable.ic_kr, "Korea"));
                 break;
             case "Australia":
                 countries.add(new Mainland(R.drawable.ic_au_australia, "Australia"));
