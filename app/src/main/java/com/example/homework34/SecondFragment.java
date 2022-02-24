@@ -43,7 +43,7 @@ public class SecondFragment extends Fragment implements OnClick {
         Bundle bundle = getArguments();
         switch (bundle.getString("text")) {
             case "North America":
-                countries.add(new Mainland(R.drawable.ec_south_america, "Es"));
+                countries.add(new Mainland(R.drawable.ec_south_america, "Ec"));
                 countries.add(new Mainland(R.drawable.ic_ar_south_america, "Argentina"));
                 countries.add(new Mainland(R.drawable.ic_bo_south_america, "Bolivia"));
                 countries.add(new Mainland(R.drawable.ic_br_south_america, "Brazil"));
@@ -82,6 +82,5 @@ public class SecondFragment extends Fragment implements OnClick {
 
     @Override
     public void onClick(Mainland mainland) {
-
     }
 }
