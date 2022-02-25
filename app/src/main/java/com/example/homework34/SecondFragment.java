@@ -42,26 +42,26 @@ public class SecondFragment extends Fragment implements OnClick {
         countries = new ArrayList<>();
         Bundle bundle = getArguments();
         switch (bundle.getString("text")) {
-            case "North America":
-                countries.add(new Mainland(R.drawable.ec_south_america, "Ec"));
+            case "South America":
+                countries.add(new Mainland(R.drawable.ec_south_america, "Ecuador"));
                 countries.add(new Mainland(R.drawable.ic_ar_south_america, "Argentina"));
                 countries.add(new Mainland(R.drawable.ic_bo_south_america, "Bolivia"));
                 countries.add(new Mainland(R.drawable.ic_br_south_america, "Brazil"));
                 countries.add(new Mainland(R.drawable.ic_gy_south_america, "Guyana"));
                 break;
-            case "South America":
-                countries.add(new Mainland(R.drawable.ic_ag_north_america, "Ag"));
+            case "North America":
+                countries.add(new Mainland(R.drawable.ic_ag_north_america, "Antigua and Barbuda"));
                 countries.add(new Mainland(R.drawable.ic_canada_north_america, "Canada"));
-                countries.add(new Mainland(R.drawable.ic_fi_north_america, "Fi"));
-                countries.add(new Mainland(R.drawable.ic_is_north_america, "Brazil"));
-                countries.add(new Mainland(R.drawable.ic_us_north_america, "Guyana"));
+                countries.add(new Mainland(R.drawable.ic_fi_north_america, "Finlandia"));
+                countries.add(new Mainland(R.drawable.ic_is_north_america, "Islandia"));
+                countries.add(new Mainland(R.drawable.ic_us_north_america, "USA"));
                 break;
             case "Africa":
-                countries.add(new Mainland(R.drawable.ic_ao_africa, "Ao"));
-                countries.add(new Mainland(R.drawable.ic_bf_africa, "Bf"));
-                countries.add(new Mainland(R.drawable.ic_bj_africa, "Bj"));
-                countries.add(new Mainland(R.drawable.ic_bw_africa, "Bv"));
-                countries.add(new Mainland(R.drawable.ic_dz_africa, "Dz"));
+                countries.add(new Mainland(R.drawable.ic_ao_africa, "Angola"));
+                countries.add(new Mainland(R.drawable.ic_bf_africa, "Burkina Faso"));
+                countries.add(new Mainland(R.drawable.ic_bj_africa, "Benin"));
+                countries.add(new Mainland(R.drawable.ic_bw_africa, "Botsvana"));
+                countries.add(new Mainland(R.drawable.ic_dz_africa, "Algir"));
                 break;
             case "Antarctica":
                 countries.add(new Mainland(R.drawable.ic_fourth_mainland, "no country"));
